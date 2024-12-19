@@ -1,0 +1,132 @@
+"""
+Task 1: Create a String and Access Characters
+Sample Input:
+    String: "Hello, World!"
+    Index to Access: 7
+Expected Output:
+    Character at index 7: 'W'
+
+Task 2: Find the Length of a String
+Sample Input:
+    String: "Python"
+Expected Output:
+    Length of the string: 6
+
+Task 3: Convert a String to Uppercase
+Sample Input:
+    String: "hello"
+Expected Output:
+    Uppercase String: "HELLO"
+
+Task 4: Convert a String to Lowercase
+Sample Input:
+    String: "HELLO"
+Expected Output:
+    Lowercase String: "hello"
+
+Task 5: Count Occurrences of a Substring in a String
+Sample Input:
+    String: "I love programming in Python, Python is great."
+    Substring: "Python"
+Expected Output:
+    Count of "Python": 2
+
+Task 6: Check if a String Starts with a Specific Substring
+Sample Input:
+    String: "Hello, World!"
+    Substring to Check: "Hello"
+Expected Output:
+    Output: "The string starts with 'Hello'."
+
+Task 7: Check if a String Ends with a Specific Substring
+Sample Input:
+    String: "Hello, World!"
+    Substring to Check: "World!"
+Expected Output:
+    Output: "The string ends with 'World!'."
+
+Task 8: Replace Substring in a String
+Sample Input:
+    String: "I love Python programming."
+    Old Substring: "Python"
+    New Substring: "Java"
+Expected Output:
+    Modified String: "I love Java programming."
+
+Task 9: Remove Whitespace from a String
+Sample Input:
+    String: "   Hello, Python!   "
+Expected Output:
+    String without leading/trailing whitespace: "Hello, Python!"
+
+Task 10: Split a String into a List of Words
+Sample Input:
+    String: "Python is great"
+Expected Output:
+    List of words: ['Python', 'is', 'great']
+
+Task 11: Join a List of Strings into a Single String
+Sample Input:
+    List of Strings: ['Python', 'is', 'great']
+    Separator: " "
+Expected Output:
+    Joined String: "Python is great"
+
+Task 12: Find the Index of a Substring in a String
+Sample Input:
+    String: "I love Python programming"
+    Substring: "Python"
+Expected Output:
+    Index of "Python": 7
+
+Task 13: Check if a String Contains Only Digits
+Sample Input:
+    String: "12345"
+Expected Output:
+    Output: "The string contains only digits."
+
+Task 14: Check if a String Contains Only Letters
+Sample Input:
+    String: "Hello"
+Expected Output:
+    Output: "The string contains only letters."
+
+Task 15: Check if a String Contains Only Alphanumeric Characters
+Sample Input:
+    String: "Hello123"
+Expected Output:
+    Output: "The string contains only alphanumeric characters."
+
+Task 16: Reverse a String
+Sample Input:
+    String: "Python"
+Expected Output:
+    Reversed String: "nohtyP"
+
+Task 17: Convert a String to Title Case
+Sample Input:
+    String: "hello world, welcome to python"
+Expected Output:
+    Title Case String: "Hello World, Welcome To Python"
+
+Task 18: Find the Character at a Specific Index
+Sample Input:
+    String: "Programming"
+    Index: 4
+Expected Output:
+    Character at index 4: 'r'
+
+Task 19: Extract a Substring from a String
+Sample Input:
+    String: "I love Python programming"
+    Start Index: 7
+    End Index: 13
+Expected Output:
+    Substring: "Python"
+
+Task 20: Check if a String is a Palindrome
+Sample Input:
+    String: "madam"
+Expected Output:
+    Output: "The string is a palindrome."
+"""

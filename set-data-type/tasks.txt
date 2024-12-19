@@ -1,0 +1,150 @@
+"""
+Task 1: Create a Set and Add Elements
+Sample Input:
+    Elements to Add: 1, 2, 3, 4, 5
+Expected Output:
+    Set: {1, 2, 3, 4, 5}
+
+Task 2: Check if an Element Exists in a Set
+Sample Input:
+    Set: {10, 20, 30, 40, 50}
+    Element to Check: 30
+Expected Output:
+    Output: "Element exists in the set."
+
+Task 3: Remove an Element from a Set
+Sample Input:
+    Set: {5, 10, 15, 20, 25}
+    Element to Remove: 15
+Expected Output:
+    Set after removal: {5, 10, 20, 25}
+
+Task 4: Find Union of Two Sets
+Sample Input:
+    Set 1: {1, 2, 3, 4}
+    Set 2: {3, 4, 5, 6}
+Expected Output:
+    Union: {1, 2, 3, 4, 5, 6}
+
+Task 5: Find Intersection of Two Sets
+Sample Input:
+    Set 1: {1, 2, 3, 4}
+    Set 2: {3, 4, 5, 6}
+Expected Output:
+    Intersection: {3, 4}
+
+Task 6: Find Difference Between Two Sets
+Sample Input:
+    Set 1: {10, 20, 30, 40, 50}
+    Set 2: {30, 40, 60}
+Expected Output:
+    Difference: {10, 20, 50}
+
+Task 7: Check if a Set is Subset of Another Set
+Sample Input:
+    Set 1: {1, 2, 3}
+    Set 2: {1, 2, 3, 4, 5}
+Expected Output:
+    Output: "Set 1 is a subset of Set 2."
+
+Task 8: Check if a Set is Superset of Another Set
+Sample Input:
+    Set 1: {1, 2, 3, 4, 5}
+    Set 2: {3, 4}
+Expected Output:
+    Output: "Set 1 is a superset of Set 2."
+
+Task 9: Find Symmetric Difference Between Two Sets
+Sample Input:
+    Set 1: {1, 2, 3, 4}
+    Set 2: {3, 4, 5, 6}
+Expected Output:
+    Symmetric Difference: {1, 2, 5, 6}
+
+Task 10: Clear All Elements from a Set
+Sample Input:
+    Set: {10, 20, 30, 40, 50}
+Expected Output:
+    Set after clearing: set()
+"""
+
+
+
+
+
+
+
+
+"""
+Task 1: Create a Set and Add Multiple Elements
+Sample Input:
+    Elements to Add: 7, 8, 9, 10, 11
+Expected Output:
+    Set: {7, 8, 9, 10, 11}
+
+Task 2: Remove Element from Set Safely
+Sample Input:
+    Set: {5, 10, 15, 20}
+    Element to Remove: 15
+Expected Output:
+    Set after removal: {5, 10, 20}
+
+Task 3: Find the Union of Three Sets
+Sample Input:
+    Set 1: {1, 2, 3}
+    Set 2: {3, 4, 5}
+    Set 3: {5, 6, 7}
+Expected Output:
+    Union: {1, 2, 3, 4, 5, 6, 7}
+
+Task 4: Check if a Set is Disjoint with Another Set
+Sample Input:
+    Set 1: {1, 2, 3, 4}
+    Set 2: {5, 6, 7, 8}
+Expected Output:
+    Output: "The sets are disjoint."
+
+Task 5: Find the Intersection of Multiple Sets
+Sample Input:
+    Set 1: {1, 2, 3, 4}
+    Set 2: {3, 4, 5, 6}
+    Set 3: {4, 6, 7}
+Expected Output:
+    Intersection: {4}
+
+Task 6: Check if a Set Contains Only Unique Elements
+Sample Input:
+    Set: {1, 2, 2, 3, 4}
+Expected Output:
+    Output: "The set contains duplicates."
+
+Task 7: Find the Difference Between Three Sets
+Sample Input:
+    Set 1: {1, 2, 3, 4}
+    Set 2: {3, 4, 5}
+    Set 3: {4, 5, 6}
+Expected Output:
+    Difference: {1, 2}
+
+Task 8: Update a Set with New Elements
+Sample Input:
+    Set: {5, 10, 15}
+    Elements to Add: 20, 25
+Expected Output:
+    Set after update: {5, 10, 15, 20, 25}
+
+Task 9: Find the Symmetric Difference of Multiple Sets
+Sample Input:
+    Set 1: {1, 2, 3}
+    Set 2: {2, 3, 4}
+    Set 3: {3, 4, 5}
+Expected Output:
+    Symmetric Difference: {1, 5}
+
+Task 10: Remove All Elements from a Set if it Contains a Specific Element
+Sample Input:
+    Set: {10, 20, 30, 40, 50}
+    Element to Check: 30
+Expected Output:
+    Output: "Set is cleared." (Set: set())
+"""

@@ -1,0 +1,138 @@
+"""
+Task 1: Create a Tuple and Access Elements
+Sample Input:
+    Tuple: (10, 20, 30, 40, 50)
+    Access Index: 2
+Expected Output:
+    Element at index 2: 30
+
+Task 2: Find the Length of a Tuple
+Sample Input:
+    Tuple: (5, 10, 15, 20, 25)
+Expected Output:
+    Length of the tuple: 5
+
+Task 3: Concatenate Two Tuples
+Sample Input:
+    Tuple 1: (1, 2, 3)
+    Tuple 2: (4, 5, 6)
+Expected Output:
+    Concatenated Tuple: (1, 2, 3, 4, 5, 6)
+
+Task 4: Repeat a Tuple Multiple Times
+Sample Input:
+    Tuple: (7, 8, 9)
+    Repeat Count: 3
+Expected Output:
+    Repeated Tuple: (7, 8, 9, 7, 8, 9, 7, 8, 9)
+
+Task 5: Check if an Element Exists in a Tuple
+Sample Input:
+    Tuple: (1, 2, 3, 4, 5)
+    Element to Check: 3
+Expected Output:
+    Output: "Element exists in the tuple."
+
+Task 6: Slice a Tuple
+Sample Input:
+    Tuple: (1, 2, 3, 4, 5, 6)
+    Start Index: 1
+    End Index: 4
+Expected Output:
+    Sliced Tuple: (2, 3, 4)
+
+Task 7: Find the Index of an Element in a Tuple
+Sample Input:
+    Tuple: (10, 20, 30, 40, 50)
+    Element to Find: 30
+Expected Output:
+    Index of element 30: 2
+
+Task 8: Count Occurrences of an Element in a Tuple
+Sample Input:
+    Tuple: (5, 10, 5, 20, 5, 30)
+    Element to Count: 5
+Expected Output:
+    Count of 5: 3
+
+Task 9: Unpack Tuple into Variables
+Sample Input:
+    Tuple: (1, 2, 3)
+Expected Output:
+    a = 1, b = 2, c = 3
+
+Task 10: Convert a Tuple to a List
+Sample Input:
+    Tuple: (5, 10, 15, 20)
+Expected Output:
+    List: [5, 10, 15, 20]
+
+Task 11: Convert a List to a Tuple
+Sample Input:
+    List: [1, 2, 3, 4]
+Expected Output:
+    Tuple: (1, 2, 3, 4)
+
+Task 12: Find the Maximum and Minimum Value in a Tuple
+Sample Input:
+    Tuple: (10, 20, 30, 40, 50)
+Expected Output:
+    Maximum: 50
+    Minimum: 10
+
+Task 13: Nested Tuple Access
+Sample Input:
+    Tuple: ((1, 2), (3, 4), (5, 6))
+    Access Inner Tuple: (1, 2)
+Expected Output:
+    Accessed Tuple: (1, 2)
+
+Task 14: Create a Tuple with Repeated Elements
+Sample Input:
+    Element: 7
+    Repeat Count: 5
+Expected Output:
+    Tuple: (7, 7, 7, 7, 7)
+
+Task 15: Check if Two Tuples are Equal
+Sample Input:
+    Tuple 1: (1, 2, 3)
+    Tuple 2: (1, 2, 3)
+Expected Output:
+    Output: "Tuples are equal."
+
+Task 16: Merge Two Tuples and Sort Them
+Sample Input:
+    Tuple 1: (3, 1, 2)
+    Tuple 2: (6, 5, 4)
+Expected Output:
+    Merged and Sorted Tuple: (1, 2, 3, 4, 5, 6)
+
+Task 17: Swap Elements in a Tuple
+Sample Input:
+    Tuple: (1, 2, 3, 4)
+    Swap Indexes: 1 and 3
+Expected Output:
+    Swapped Tuple: (1, 4, 3, 2)
+
+Task 18: Add an Element to a Tuple
+Sample Input:
+    Tuple: (5, 10, 15)
+    Element to Add: 20
+Expected Output:
+    New Tuple: (5, 10, 15, 20)
+
+Task 19: Remove an Element from a Tuple
+Sample Input:
+    Tuple: (10, 20, 30, 40, 50)
+    Element to Remove: 30
+Expected Output:
+    New Tuple: (10, 20, 40, 50)
+
+Task 20: Check for Tuple Identity
+Sample Input:
+    Tuple 1: (1, 2, 3)
+    Tuple 2: (1, 2, 3)
+Expected Output:
+    Output: "Both tuples are identical."
+"""
