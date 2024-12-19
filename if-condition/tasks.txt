@@ -1,0 +1,175 @@
+"""
+Task 1: Grade Calculator
+1. Write a program that asks the user to enter a score between 0 and 100.
+2. Use if, elif, and else to determine the grade based on defined score ranges.
+3. Display an error message if the input is invalid.
+
+Task 2: Temperature Converter
+1. Ask the user to input a temperature in Celsius.
+2. If the temperature is below 0, classify it as "Freezing."
+3. If the temperature is between 0 and 20, classify it as "Cold."
+4. If the temperature is between 21 and 35, classify it as "Warm."
+5. If the temperature is above 35, classify it as "Hot."
+
+Task 3: Even or Odd Checker
+1. Ask the user to input a number.
+2. Check if the number is even or odd using an if-else statement.
+3. Print the result accordingly.
+
+Task 4: Number Categorizer
+1. Ask the user to input a number.
+2. Determine if the number is:
+   - Positive and even
+   - Positive and odd
+   - Negative and even
+   - Negative and odd
+   - Zero
+
+Task 5: Leap Year Checker
+1. Ask the user to input a year.
+2. Determine if the year is a leap year using the following rules:
+   - A year is a leap year if it is divisible by 4 but not divisible by 100, or it is divisible by 400.
+
+Task 6: Age Group Identifier
+1. Ask the user to input their age.
+2. Determine their age group:
+   - 0-12: Child
+   - 13-19: Teenager
+   - 20-59: Adult
+   - 60 and above: Senior
+
+Task 7: Simple Calculator
+1. Ask the user to input two numbers and a mathematical operation (+, -, *, /).
+2. Use if-elif-else to perform the appropriate operation.
+3. Display the result, or show an error message for invalid operations.
+
+Task 8: BMI Calculator
+1. Ask the user to input their weight (kg) and height (m).
+2. Calculate the BMI using the formula: BMI = weight / (height * height).
+3. Classify the BMI:
+   - Below 18.5: Underweight
+   - 18.5 to 24.9: Normal weight
+   - 25.0 to 29.9: Overweight
+   - 30.0 and above: Obese
+
+Task 9: Day of the Week Checker
+1. Ask the user to input a number between 1 and 7.
+2. Map the number to a day of the week:
+   - 1: Monday
+   - 2: Tuesday
+   - ...
+   - 7: Sunday
+3. Display an error message if the input is not between 1 and 7.
+
+Task 10: Discount Calculator
+1. Ask the user to input the price of a product.
+2. Determine the discount based on the price:
+   - Below $50: No discount
+   - $50 to $100: 10% discount
+   - Above $100: 20% discount
+3. Calculate and display the discounted price.
+"""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""
+Task 1: Number to Words Converter
+1. Ask the user to input a single-digit number (0-9).
+2. Convert the number to its word equivalent (e.g., 1 -> "One", 5 -> "Five").
+3. Display an error message if the input is not a single-digit number.
+
+Task 2: Triangle Type Checker
+1. Ask the user to input the lengths of three sides of a triangle.
+2. Determine if the triangle is:
+   - Equilateral (all sides equal)
+   - Isosceles (two sides equal)
+   - Scalene (all sides different)
+   - Invalid (does not form a triangle)
+
+Task 3: Password Strength Checker
+1. Ask the user to input a password.
+2. Evaluate the password's strength based on these rules:
+   - Weak: Length less than 6
+   - Moderate: Length 6-10 and includes only letters
+   - Strong: Length greater than 10 and includes letters, numbers, and special characters
+3. Display the password's strength.
+
+Task 4: Electricity Bill Calculator
+1. Ask the user to input the number of units consumed.
+2. Calculate the bill based on these slabs:
+   - Up to 100 units: $0.50 per unit
+   - 101-200 units: $0.75 per unit
+   - 201-300 units: $1.20 per unit
+   - Above 300 units: $1.50 per unit
+3. Add a fixed charge of $50 to the total bill and display the result.
+
+Task 5: Employee Bonus Calculator
+1. Ask the user to input their years of service and current salary.
+2. Calculate the bonus:
+   - More than 10 years: 20% of salary
+   - Between 6 and 10 years: 10% of salary
+   - Less than 6 years: 5% of salary
+3. Display the bonus and the total salary after adding the bonus.
+
+Task 6: Number Range Categorizer
+1. Ask the user to input a number.
+2. Categorize the number:
+   - Between 1 and 100: "Low range"
+   - Between 101 and 1000: "Medium range"
+   - Above 1000: "High range"
+   - Below 0: "Invalid input"
+3. Display the appropriate category.
+
+Task 7: Vowel and Consonant Counter
+1. Ask the user to input a string.
+2. Count the number of vowels and consonants in the string.
+3. Display the counts, ignoring spaces and special characters.
+
+Task 8: Travel Cost Calculator
+1. Ask the user to input the distance to be traveled (in km).
+2. Calculate the travel cost based on these rates:
+   - Up to 100 km: $0.75 per km
+   - 101-500 km: $0.60 per km
+   - Above 500 km: $0.50 per km
+3. Display the total cost.
+
+Task 9: Multiplication Table Generator
+1. Ask the user to input a number.
+2. Generate the multiplication table for the number up to 10.
+3. If the input is not a number, display an error message.
+
+Task 10: Zodiac Sign Finder
+1. Ask the user to input their birth month and date (e.g., "March 21").
+2. Determine their zodiac sign based on these ranges:
+   - Aries: March 21 - April 19
+   - Taurus: April 20 - May 20
+   - ...
+   - Pisces: February 19 - March 20
+3. Display their zodiac sign or an error message for invalid input.
+"""

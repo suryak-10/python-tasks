@@ -1,0 +1,135 @@
+"""
+Task 1: List Reversal
+Sample Input:
+    Original List: [1, 2, 3, 4, 5]
+Expected Output:
+    Reversed List: [5, 4, 3, 2, 1]
+
+Task 2: Even Numbers Filter
+Sample Input:
+    User Input: "1, 2, 3, 4, 5, 6, 7, 8, 9"
+Expected Output:
+    Even Numbers: [2, 4, 6, 8]
+
+Task 3: List Index Finder
+Sample Input:
+    List: ["apple", "banana", "cherry", "date", "fig"]
+    User Input: "cherry"
+Expected Output:
+    Element "cherry" found at index 2
+
+Task 4: List Sorting
+Sample Input:
+    User Input: "5, 1, 4, 2, 3"
+Expected Output:
+    Sorted List: [1, 2, 3, 4, 5]
+
+Task 5: Unique Elements Extractor
+Sample Input:
+    User Input: "1, 2, 2, 3, 4, 4, 5"
+Expected Output:
+    Unique Elements: [1, 2, 3, 4, 5]
+
+Task 6: List Duplicates Counter
+Sample Input:
+    User Input: "apple, banana, apple, cherry, banana, apple"
+Expected Output:
+    Duplicates Count: {"apple": 3, "banana": 2}
+
+Task 7: Largest and Smallest Finder
+Sample Input:
+    List: [34, 78, 12, 89, 23]
+Expected Output:
+    Largest Number: 89
+    Smallest Number: 12
+
+Task 8: Element Remover
+Sample Input:
+    List: ["red", "blue", "green", "yellow", "purple"]
+    User Input: "green"
+Expected Output:
+    List after removal: ["red", "blue", "yellow", "purple"]
+
+Task 9: List Concatenation
+Sample Input:
+    List 1: [1, 2, 3]
+    List 2: [4, 5, 6]
+Expected Output:
+    Concatenated List: [1, 2, 3, 4, 5, 6]
+
+Task 10: Sum of Elements
+Sample Input:
+    List: [10, 20, 30, 40, 50]
+Expected Output:
+    Sum of Elements: 150
+"""
+
+
+
+
+
+"""
+Task 1: Multiply Each Element by 2
+Sample Input:
+    List: [1, 2, 3, 4, 5]
+Expected Output:
+    Result: [2, 4, 6, 8, 10]
+
+Task 2: Find the Second Largest Number
+Sample Input:
+    List: [12, 45, 7, 34, 89, 23]
+Expected Output:
+    Second Largest Number: 45
+
+Task 3: Rotate List by n Positions
+Sample Input:
+    List: [1, 2, 3, 4, 5]
+    n: 2
+Expected Output:
+    Rotated List: [4, 5, 1, 2, 3]
+
+Task 4: Count Occurrences of an Element
+Sample Input:
+    List: ["cat", "dog", "cat", "bird", "dog", "cat"]
+    Element: "cat"
+Expected Output:
+    Count: 3
+
+Task 5: Split List into Two Halves
+Sample Input:
+    List: [1, 2, 3, 4, 5, 6]
+Expected Output:
+    First Half: [1, 2, 3]
+    Second Half: [4, 5, 6]
+
+Task 6: Remove Elements at Even Indices
+Sample Input:
+    List: [10, 20, 30, 40, 50, 60]
+Expected Output:
+    Result: [20, 40, 60]
+
+Task 7: Replace Negative Numbers with 0
+Sample Input:
+    List: [3, -2, 7, -5, 9]
+Expected Output:
+    Result: [3, 0, 7, 0, 9]
+
+Task 8: Find Intersection of Two Lists
+Sample Input:
+    List 1: [1, 2, 3, 4, 5]
+    List 2: [4, 5, 6, 7, 8]
+Expected Output:
+    Intersection: [4, 5]
+
+Task 9: Find the Index of the Maximum Value
+Sample Input:
+    List: [15, 22, 39, 45, 12]
+Expected Output:
+    Index of Maximum Value: 3
+
+Task 10: Flatten a Nested List
+Sample Input:
+    Nested List: [[1, 2], [3, 4, 5], [6]]
+Expected Output:
+    Flattened List: [1, 2, 3, 4, 5, 6]
+"""
