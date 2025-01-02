@@ -11,5 +11,7 @@ tuple2=(1, 2, 3)
 #     print("Both tuples are identical.")
 # else:
 #     print("Both tuples are not identical.")
-print(1 not in tuple1)
+
 print(2 in tuple1)
+
+# changes made.
