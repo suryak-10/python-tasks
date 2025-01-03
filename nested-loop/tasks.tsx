@@ -147,7 +147,7 @@ Expected Output:
     1 3 3 1
 
 Task 20: Print an Alphabet Triangle
-Sample Input:
+Sample          Input:
     Rows: 3
 Expected Output:
     A
