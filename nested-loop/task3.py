@@ -8,8 +8,8 @@
 
 start = 1
 end = 3
-
-for i in range(start, end + 1):
-    for j in range(start, end + 1):
+table=range(start, end + 1)
+for i in table:
+    for j in table:
         print(i * j, end=" ")
     print()

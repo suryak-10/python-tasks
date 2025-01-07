@@ -6,4 +6,4 @@
 
 lists = [1, 2, 3]
 import itertools as it
-print(list(it.combinations(lists, 2)))
+print(tuple(it.combinations(lists, 2)))

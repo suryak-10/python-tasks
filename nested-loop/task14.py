@@ -8,8 +8,8 @@
 # def subsets(s):
 #     if len(s) == 0:
 #         return [[]]
-#     x = subsets(s[:-1])
+#     x = subsets(s[0 : -1])
 #     return x + [[s[-1]] + y for y in x]
-# s = [1, 2]
+# s = [2,1]
 # result = subsets(s)
 # print(result)

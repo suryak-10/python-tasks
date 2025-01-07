@@ -7,8 +7,11 @@
 #     a b c
 #     a b c
 
-# rows = 3
-# for i in range(3):
-#     for j in range(1, rows):
-#         print(end="a b c")
-#     print()
+
+def print_in_grid(string, rows):
+    characters = list(string)
+    for char in range(rows):
+        print(" ".join(characters))
+print_in_grid("abc", 3)
+print_in_grid("abcSDFASD", 8)
+print_in_grid("HELLO", 3)

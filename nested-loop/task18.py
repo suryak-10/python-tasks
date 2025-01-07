@@ -5,22 +5,14 @@
 # Expected Output:
 #     Triplets: [(1, 2, 3)]
 
-# n=[1, 2, 3, 4]
-# for i in range(n+1):
-#     for j in range(n+1):
-#         if i+j <= n:
-#          print((i, j, n-i-j))
-
-# n=[1, 2, 3, 4]
-# for i in range(n + 1):
-#     for j in range(i, (n - i)//2 + 1):
-#      out.append((i, j, n-i-j))
-
-# n=[1, 2, 3, 4]
-# def triplets(array,targetsum):
-    # array.sort(n)
-    # triplets=[]
-    # for i in range(len(array)-2):
-    #     left=i=1
-    #     right=len(array) - 1
-    #     print(n)
+# from itertools import combinations
+#
+#
+# def lists(lst, key):
+#     def valid(val):
+#         return sum(val) == key
+#
+#     return list(filter(valid, list(combinations(lst, 3))))
+#
+# lst = [1, 2, 3, 4]
+# print(lists(lst, 6))

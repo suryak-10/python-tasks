@@ -5,8 +5,8 @@
 #     Flattened List: [1, 2, 3, 4]
 
 
-my_list=[[1,2],[3,4]]
-flat_list=sum(my_list,[])
+list1=[[1,2],[3,4]]
+flat_list=sum(list1,[])
 print(flat_list)
 
 
