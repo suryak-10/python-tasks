@@ -23,7 +23,7 @@ if not os.path.exists(root_path):
 
 # sys.exit()
 
-for i in range(1,100):
+for i in range(1,101):
     file_name="task"+str(i)+ ".py"
     file_path = root_path + "/" + file_name
     file = open(file_path, "w")
