@@ -1,8 +1,6 @@
 # Types of functions
 #     1.  Built in
 #     2.  User define
-from multiprocessing.spawn import prepare
-from struct import pack_into
 
 # 1.  Built in
 total = sum([1 , 2, 4])
