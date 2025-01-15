@@ -1,8 +1,6 @@
 # Types of functions
 #     1.  Built in
 #     2.  User define
-from multiprocessing.spawn import prepare
-from struct import pack_into
 
 # 1.  Built in
 total = sum([1 , 2, 4])
@@ -16,7 +14,6 @@ def list_total(list_of_nums):
     for num in list_of_nums:
         total = total + num
     return total
-
 
 
 # function variations :
@@ -74,9 +71,3 @@ for subject in subjects:
 num = 174
 percentage = calc_percentage(num)
 print(f"The result percentage is {percentage}")
-
-
-
-
-
-
