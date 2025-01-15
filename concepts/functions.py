@@ -18,7 +18,6 @@ def list_total(list_of_nums):
     return total
 
 
-
 # function variations :
 # 1. Function
 # 2. Method
@@ -74,9 +73,3 @@ for subject in subjects:
 num = 174
 percentage = calc_percentage(num)
 print(f"The result percentage is {percentage}")
-
-
-
-
-
-
