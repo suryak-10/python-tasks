@@ -1,0 +1,17 @@
+1. Function Definition
+2. Function Name
+3. Parameters
+4. Arguments
+5. Positional Arguments
+6. Keyword Arguments
+7. Default Arguments
+8. Variable-Length Arguments
+9. Return Statement
+9.1 Vodi and Non-void
+9.2 Return multiple values
+10. Scope
+11. Lambda Functions
+12. Recursion
+13. Built-in Functions
+14. Call Stack
+15. Function Annotations
