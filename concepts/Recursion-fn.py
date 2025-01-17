@@ -23,3 +23,24 @@ def print_list(elements, level):
             print(f"{element} in level {level}")
 
 print_list(nums, 0)
+
+def print_str(string, level=0):
+    print(string, 1,2, 23, end=" ")
+    len
+    if level != 900:
+        print_str(string, level + 1)
+
+def sum(nums):
+    total = 0
+    for num in nums:
+        total += num
+    return  total
+
+def get_total(nums):
+    total = sum(nums)
+    print(total)
+
+get_total([1, 2, 5, 5])
+
+
+print_str("Hello")
