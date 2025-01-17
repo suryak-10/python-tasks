@@ -56,6 +56,7 @@ else:
 
 
 # 4. Ternary Conditional Operator
+x=16
 status = "Adult" if x >= 18 else "Minor"
 print(f"Status: {status}")
 
@@ -120,8 +121,12 @@ except ZeroDivisionError:
 
 
 # 11. assert Statement
-num = 10
-assert num > 0, "Number must be positive"
+num = 0
+age = 19
+
+# assert age >= 18, "Age must be above 18 to get a sim card"
+if not age >= 18:
+    raise Exception("Age must be above 18 to get a sim card")
 
 
 
@@ -152,15 +157,36 @@ for odd in odd_numbers:
 with open("test.txt", "w") if x > 5 else open("default.txt", "w") as file:
     file.write("Conditional file handling example")
 
+print("file operation completed")
 
 
 
+x=17
 # 16. Short-Circuit Evaluation
 short_circuit = x > 5 and "x is large"
+
+print(short_circuit)
 print(short_circuit)
 
+name = input("Enter your name: ")
 
+if name != "":
+    print(name)
+else:
+    print("NA")
 
+print(name or "NA")
+print("NA" if name == "" else name)
+
+def greet(name):
+    print(f"Hello this is greet message {name}")
+
+# greet(name)
+name and greet(name)
+# print(name or x == 19 or "Empty name" or "Your name is empty")  # "or"  return true
+print('_____')
+print(name and x == 17 and "Empty name" and "Your name is empty")  # "and" return false
+print('_____')
 
 # 17. Decorators with Conditional Logic
 def conditional_decorator(func):
@@ -209,5 +235,17 @@ except ValueError as e:
 # 20. Conditional Logic with itertools
 from itertools import filterfalse
 data = [1, 2, 3, 4, 5]
-filtered = list(filterfalse(lambda x: x % 2 == 0, data))
+filtered = list(filterfalse(lambda x: x % 2 != 0, data))
 print(f"Filtered data (no evens): {filtered}")
+
+
+
+numbers = [1, 2, 3, 4, 5]
+squared_numbers = map(lambda x: x**2, numbers)
+squared_numbers_list = list(squared_numbers)
+print(squared_numbers_list)
+
+
+numbers = [1, 3, 5, 7, 8, 10]
+first_even = next((x for x in numbers if x % 2 == 0), None)
+print(first_even)

@@ -71,3 +71,34 @@ for subject in subjects:
 num = 174
 percentage = calc_percentage(num)
 print(f"The result percentage is {percentage}")
+
+
+
+
+# def greet(name: str) -> str:
+#     return 1212
+#     return f"Hello, {name}!"
+#
+# greet("surya")
+
+
+
+def greet_users(*args,**kwargs):
+    print(kwargs)
+    print(*args)
+    for name, greeting in kwargs.items():
+        print(f"{greeting}, {name}!")
+
+greet_users(1, 2, 5, 3, 4, 5, 6, 7, John="Hello", Jane="Hi", Alice="Good morning",  )
+
+
+
+
+def add1(a, b):
+    print("The value of a " , + a)
+    print("The value of b " , + b)
+    return a + b
+
+add2 = lambda a, b: a + b
+print(add1(5, 3))
+print(add2(5, 3))
