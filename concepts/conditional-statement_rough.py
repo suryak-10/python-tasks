@@ -2,9 +2,7 @@
 # x = 10
 # if x > 5:
 #     print("x is greater than 5")
-from operator import truediv
 
-from numpy.ma.core import negative
 
 # name="hello"
 # if 'o' in name:
@@ -16,7 +14,7 @@ from numpy.ma.core import negative
 
 
 # 2. if-else Statement
-# y = 3
+# y = 6
 # if y % 2 == 0:
 #     print("y is even")
 # else:
@@ -128,7 +126,7 @@ from numpy.ma.core import negative
 #     print("Condition met")
 
 # age=22
-# income=6000
+# income=4000
 # if age >= 18 and income >= 5000:
 #     print("your are eligible for th loan")
 # else:
@@ -186,15 +184,15 @@ from numpy.ma.core import negative
 # 9. match-case Statement
 # fruit = "apple"
 # match fruit:
-#     case "apple":
-#         print("This is an apple")
 #     case "banana":
-#         print("This is a banana")
+#         print("This is an banana")
+#     case "apple":
+#         print("This is a apple")
 #     case _:
 #         print("Unknown fruit")
 
 
-# numbers = 401
+# numbers = 400
 # match numbers:
 #     case 300:
 #         print("server error")
@@ -210,6 +208,7 @@ from numpy.ma.core import negative
 # 10. try-except as Conditional Error Handling
 # try:
 #     result = 10 / 0
+#     print(result)
 # except ZeroDivisionError:
 #     print("Cannot divide by zero")
 
@@ -226,16 +225,27 @@ from numpy.ma.core import negative
 
 
 # 11. assert Statement
-num = 10
-assert num > 0, "Number must be positive"
+# age = 17
+#
+# assert age >= 18, "Age must be above 18 to get a sim card"
+#
+# if not age >= 18:
+#     raise Exception("Age must be above 18 to get a sim card")
+#
+#
+# else:
+#     print("You are eligible to get a sim card!")
 
-num = 10
-assert num > 0,  "Number must be positive"
 
-a = 10
-b = 5
-assert a >= b, "a should be greater than or equal to b"  # No error
-# assert b > a, "b should be greater than a"
+# x = 10
+# assert x > 5, "x should be greater than 5"
+# print("Assertion passed, x is greater than 5.")
+
+
+# items = [1, 2, 3]
+# assert len(items) > 0, "The list is empty"
+# print("The list has items.")
+
 
 
 
@@ -255,7 +265,15 @@ assert a >= b, "a should be greater than or equal to b"  # No error
 
 
 
+# numbers = [1, 2, 3, 4, 5]
+# squared_numbers = map(lambda x: x**2, numbers)
+# squared_numbers_list = list(squared_numbers)
+# print(squared_numbers_list)
+
+
+
 # 13. List Comprehensions with Conditions
+# numbers = [1, 2, 3, 4, 5, 6]
 # squares = [n**2 for n in numbers if n % 2 == 0]
 # print(f"Squares of even numbers: {squares}")
 
@@ -267,6 +285,7 @@ assert a >= b, "a should be greater than or equal to b"  # No error
 
 
 # # 14. Generator Expressions with Conditions
+# numbers = [1, 2, 3, 4, 5, 6]
 # odd_numbers = (n for n in numbers if n % 2 != 0)
 # for odd in odd_numbers:
 #     print(f"Odd number: {odd}")
@@ -291,11 +310,43 @@ assert a >= b, "a should be greater than or equal to b"  # No error
 #         file.write("Conditional file handling example")
 #
 # print("file operation completed")
-
+#
 
 
 
 # 16. Short-Circuit Evaluation
+# x=17
+# short_circuit = x > 5 and "x is large"
+#
+# print(short_circuit)
+# print(short_circuit)
+#
+# name = input("Enter your name: ")
+#
+# if name != "":
+#     print(name)
+# else:
+#     print("NA")
+#
+# print(name or "NA")
+# print("NA" if name == "" else name)
+#
+# def greet(name):
+#     print(f"Hello this is greet message {name}")
+#
+# # greet(name)
+# name and greet(name)
+# # print(name or x == 19 or "Empty name" or "Your name is empty")  # "or"  return true
+# print('_____')
+# print(name and x == 17 and "Empty name" and "Your name is empty")  # "and" return false
+# print('_____')
+
+
+
+
+
+
+
 # x=15
 # short_circuit = x > 5 and "x is large"
 # print(short_circuit)
@@ -335,8 +386,8 @@ assert a >= b, "a should be greater than or equal to b"  # No error
 
 
 # for number in range(1, 10):
-#     if number == 5:
-#         print("Breaking the loop when number is 5.")
+#     if number == 7:
+#         print("Breaking the loop when number is 7.")
 #         break
 #     print(number)
 
@@ -350,6 +401,19 @@ assert a >= b, "a should be greater than or equal to b"  # No error
 
 
 # 19. Exception Handling as Condition
+# def check_positive(value):
+#     if value < 0:
+#         raise ValueError("Value must be non-negative")
+#     return True
+#
+# try:
+#     check_positive(-10)
+# except ValueError as e:
+#     print(e)
+
+
+
+
 # def divide_numbers(a, b):
 #     try:
 #         result = a / b
@@ -357,14 +421,30 @@ assert a >= b, "a should be greater than or equal to b"  # No error
 #         result = "Cannot divide by zero."
 #     return result
 #
-# print(divide_numbers(10, 2))
 # print(divide_numbers(10, 0))
+# print(divide_numbers(10, 8))
 
 
 
 
 # 20. Conditional Logic with itertools
-from itertools import filterfalse
-data = [1, 2, 3, 4, 5]
-filtered = list(filterfalse(lambda x: x % 2 == 0, data))
-print(f"Filtered data (no evens): {filtered}")
+# from itertools import filterfalse
+# data = [1, 2, 3, 4, 5]
+# filtered = list(filterfalse(lambda x: x % 2 == 0, data))
+# print(f"Filtered data (no evens): {filtered}")
+
+
+
+#21. next()
+# numbers = [1, 3, 5, 7, 8, 10]
+# first_even = next((x for x in numbers if x % 2 == 0), None)
+# print(first_even)
+
+
+# my_list = [1, 2, 3]
+# iterator = iter(my_list)
+#
+# print(next(iterator))
+# print(next(iterator))
+# print(next(iterator))
+# print(next(iterator, "No more items"))

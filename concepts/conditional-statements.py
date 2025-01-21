@@ -1,25 +1,25 @@
 # Conditional Statements in Python Examples
-
-1. if Statement
-2. if-else Statement
-3. if-elif-else Statement
-4. Ternary Conditional Operator
-5. Conditional Expression in while Loops
-6. Conditional Expression in for Loops
-7. Logical Operators (and, or, not)
-8. Nested Conditional Statements
-9. match-case Statement
-10. try-except as Conditional Error Handling
-11. assert Statement
-12. Conditional Expression with lambda Functions
-13. List Comprehensions with Conditions
-14. Generator Expressions with Conditions
-15. with Statement with Conditions
-16. Short-Circuit Evaluation
-17. Decorators with Conditional Logic
-18. break and continue in Loops
-19. Exception Handling as Condition
-20. Conditional Logic with itertools
+#
+# 1. if Statement
+# 2. if-else Statement
+# 3. if-elif-else Statement
+# 4. Ternary Conditional Operator
+# 5. Conditional Expression in while Loops
+# 6. Conditional Expression in for Loops
+# 7. Logical Operators (and, or, not)
+# 8. Nested Conditional Statements
+# 9. match-case Statement
+# 10. try-except as Conditional Error Handling
+# 11. assert Statement
+# 12. Conditional Expression with lambda Functions
+# 13. List Comprehensions with Conditions
+# 14. Generator Expressions with Conditions
+# 15. with Statement with Conditions
+# 16. Short-Circuit Evaluation
+# 17. Decorators with Conditional Logic
+# 18. break and continue in Loops
+# 19. Exception Handling as Condition
+# 20. Conditional Logic with itertools
 
 
 # 1. if Statement
@@ -161,8 +161,9 @@ print("file operation completed")
 
 
 
-x=17
+
 # 16. Short-Circuit Evaluation
+x=17
 short_circuit = x > 5 and "x is large"
 
 print(short_circuit)
