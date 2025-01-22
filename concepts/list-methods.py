@@ -1,3 +1,5 @@
+from concepts.functions import list_total
+
 list_values = [1, "2", 57, "23", 85]
 
 # list operations types
@@ -69,7 +71,7 @@ nested = [[1, 2], [3, 4]]
 flat = [item for sublist in nested for item in sublist]  # Flat
 print(flat)  # [1, 2, 3, 4]
 
-# FlatMap: Flatten and map
+# FlatMap: Flatten and map                                                    --
 nested = [[1, 2], [3, 4]]
 flat_mapped = [x * 2 for sublist in nested for x in sublist]  # FlatMap
 print(flat_mapped)  # [2, 4, 6, 8]
@@ -86,11 +88,54 @@ print(subset)  # [2, 3]
 
 # ---- Producing Single Values ----
 
-# Reduce: Reduce to a single value
+# Reduce: Reduce to a single value                                               --
 from functools import reduce
 numbers = [1, 2, 3, 4]
-total = reduce(lambda acc, x: acc + x, numbers)  # Reduce
-print(total)  # 10
+
+
+from list_functions import  list_total as lt
+from list_functions import  square as sq
+
+total = reduce(lt, numbers, 0)  # Reduce
+
+total1 = reduce(sq, numbers, [])  # Reduce
+print("reduce fn value for square: ", total)  # 10
+
+
+
+fruits = ["apple", "banana", "apple", "cherry", "banana", "apple"]
+
+
+fruit_count = {
+    "apple": 0,
+    "banana": 0,
+    "cherry": 0
+}
+
+print(fruits[0], fruit_count['banana'])
+
+for fruit in fruits:
+    if fruit not in fruit_count:
+        fruit_count[fruit] = 0
+    fruit_count[fruit] = fruit_count[fruit] + 1
+
+
+def fruits_counter(acc, fruit):
+    if fruit in acc:
+        acc[fruit] += 1
+    else:
+        acc[fruit] = 1
+    return acc
+
+fruits_count = reduce(fruits_counter, fruits, {})
+print("Fruits reduce fn result :", fruits_count, end="\n")
+
+# total = 0
+# for num in numbers:
+#     total += num
+#
+total = reduce(list_total, numbers)  # Reduce
+print("reduce fn value: ", total)  # 10
 
 # Find: Find the first matching element
 numbers = [1, 2, 3, 4]
@@ -156,8 +201,6 @@ print(last_index)  # 3
 
 
 
-
-
 # ---- Combining Lists ----
 
 # Concat: Combine lists
@@ -165,6 +208,3 @@ numbers1 = [1, 2]
 numbers2 = [3, 4]
 combined = numbers1 + numbers2  # Concat
 print(combined)  # [1, 2, 3, 4]
-
-
-
