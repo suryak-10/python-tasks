@@ -213,7 +213,7 @@ filtered_dict = {k: v for k, v in original_dict.items() if v % 2 == 0}
 
 
 
-# Inverting a Dictionary
+# Inverting a Dictionary                                               --> swapping its keys and values.
 original_dict = {"a": 1, "b": 2, "c": 3}
 inverted_dict = {v: k for k, v in original_dict.items()}
 
@@ -255,7 +255,7 @@ merged_chain = ChainMap(dict1, dict2)
 
 
 
-# Accessing deeply nested dictionaries safely
+# Accessing deeply nested dictionaries safely                                                    #-->The "get()" method allows you to provide a default value if a key is missing, so it won't raise an error.
 nested_data = {"level1": {"level2": {"level3": "value"}}}
 value = nested_data.get("level1", {}).get("level2", {}).get("level3", "default")
 
@@ -265,6 +265,7 @@ value = nested_data.get("level1", {}).get("level2", {}).get("level3", "default")
 
 
 # Example Usage
+
 if __name__ == "__main__":
     print("Original Dictionary:", my_dict)
     print("Shallow Copy:", shallow_copy)
