@@ -122,7 +122,7 @@ timezone = pytz.timezone("America/New_York")
 new_york_time = utc_now.astimezone(timezone)
 print("New York Time:", new_york_time)
 
-# b. List All Timezones
+# b. List All Timezones                                                     # tz =  "Time Zone"
 print("First 10 Timezones:")
 for tz in pytz.all_timezones[:10]:
     print(tz)
