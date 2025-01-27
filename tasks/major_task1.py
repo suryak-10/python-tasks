@@ -97,3 +97,92 @@
 # No sample output required.
 
 # Save this file as "advanced_tasks.py" and provide it to your junior to complete each task step by step.
+
+
+
+
+
+
+
+# Task 21: Create a function to detect palindromic sentences from a file, ignoring spaces, punctuation, and case.
+# Sample Input File Content: "A man, a plan, a canal, Panama. Hello world."
+# Sample Output: Palindromic Sentences: "A man, a plan, a canal, Panama"
+
+# Task 22: Write a program to implement a LRU (Least Recently Used) cache mechanism for file reads.
+# No sample input/output required.
+
+# Task 23: Develop a program that reads a text file containing dates in different formats.
+# Normalize all dates to the format YYYY-MM-DD and save them to a new file.
+# Sample Input File Content: "12/31/2023, 2023-Jan-01, 01-01-2023"
+# Sample Output File Content: "2023-12-31, 2023-01-01, 2023-01-01"
+
+# Task 24: Create a function that compresses and decompresses text files using the gzip module.
+# Sample Input File Content: "This is a test."
+# Sample Output File (Compressed): Binary gzip content
+# Sample Output File (Decompressed): "This is a test."
+
+# Task 25: Write a program to find and replace all occurrences of a given word in a text file.
+# Save the modified content to a new file.
+# Sample Input: Word to replace: "Python", Replace with: "Java"
+# Sample Input File Content: "Python is great. Python is fun."
+# Sample Output File Content: "Java is great. Java is fun."
+
+# Task 26: Develop a program that calculates the similarity between two text files using cosine similarity.
+# Sample Input: file1.txt, file2.txt
+# Sample Output: Cosine Similarity: 0.85
+
+# Task 27: Write a program to identify and delete all empty folders in a directory.
+# No sample input/output required.
+
+# Task 28: Create a function to generate a random password based on user-defined constraints (length, special characters, etc.).
+# Save the generated password to a file.
+# Sample Output: Password: "A!3gk9&"
+
+# Task 29: Write a program to calculate the execution time of sorting algorithms (e.g., bubble sort, quick sort) on large datasets.
+# Save the results to a file.
+# Sample Output File Content: "Bubble Sort: 15.6s, Quick Sort: 2.3s"
+
+# Task 30: Create a program to perform a recursive search for a specific text pattern across all files in a directory.
+# Save the results (file name and line number) to a file.
+# Sample Input: Pattern: "def"
+# Sample Output File Content: "File: script.py, Line: 10"
+
+# Task 31: Develop a function to read two CSV files and find common rows based on a specific column.
+# Save the common rows to a new CSV file.
+# Sample Input: Column: "ID"
+# Sample Output File Content: Rows with matching IDs
+
+# Task 32: Write a program to generate a histogram from the frequency of words in a text file.
+# Sample Input File Content: "Apple Apple Banana Orange"
+# Sample Output: Histogram displayed in console or saved to a file
+
+# Task 33: Create a function that identifies broken links in an HTML file and saves the report to a new file.
+# Sample Input File Content: "<a href='http://example.com'>Example</a> <a href='http://brokenlink.com'>Broken</a>"
+# Sample Output File Content: "Broken Links: http://brokenlink.com"
+
+# Task 34: Write a program to scrape weather data from a website (use a mock website or file if internet access isn't available).
+# Save the data to a JSON file.
+# Sample Output File Content: {"Temperature": "25°C", "Humidity": "60%"}
+
+# Task 35: Develop a program that tracks file changes (additions, deletions, modifications) and automatically syncs the updates to a backup folder.
+# No sample input/output required.
+
+# Task 36: Write a program to convert text files to PDF format.
+# Sample Input: file.txt
+# Sample Output: file.pdf
+
+# Task 37: Create a function to extract the top 10 most frequently occurring phrases (n-grams) in a text file.
+# Sample Input File Content: "Data science is fun. Data science is powerful."
+# Sample Output: "Top Phrases: ['Data science': 2, 'is fun': 1, 'is powerful': 1]"
+
+# Task 38: Develop a program to generate random test data (e.g., names, emails, dates) and save it to a CSV file.
+# Sample Output File Content:
+# Name,Email,Date
+# John Doe,john@example.com,2023-12-31
+
+# Task 39: Write a program to implement a multi-threaded file downloader.
+# No sample input/output required.
+
+# Task 40: Create a program that calculates the Levenshtein distance between strings in a file and writes the results to another file.
+# Sample Input File Content: "Python, Java, C++"
+# Sample Output File Content: "Python-Java: 5, Python-C++: 6"
